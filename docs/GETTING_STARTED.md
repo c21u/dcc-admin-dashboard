@@ -1,30 +1,32 @@
-## Getting Started
+# Getting Started with the Admin Dashboard
 
-### Short story
+Welcome aboard to the DCC's Admin Dashboard, allowing you to create and issue your own digital credentials. 
 
-If you've got Docker installed then you can run the dashboard from docker hub images with this command:
+## Admin Dashboard installation
+
+Installation and usage of the Admin Dashboard requires [Docker](https://www.docker.com/). 
+
+1. Open up Terminal and navigate to the intended destination folder (e.g. `~/Sites/admin-dashboard`).
+2. Install from Docker Hub Image using the following command:
 
 ```curl https://raw.githubusercontent.com/digitalcredentials/docs/jc-compose-files/deployment-guide/docker-compose-files/admin-dashboard-compose.yaml | docker compose -f - up```
 
-Alternatively, if you've checked out this repository, and want to run the dashboard from the source code, you run (from the root directory of this repo):
+Alternatively, you can download this repository and use the following command:
 
 ```docker compose up```
 
-It'll likely take a minute or two to download all the images from Docker Hub, but once that's all done, you should be able to open a web browser to [http://localhost:3000](http://localhost:3000).
+3. Once Docker downloads all the appropriate resources, open a web browser to [http://localhost:3000](http://localhost:3000) to confirm the installation worked.
 
-You've now got a working admin-dashboard up and running.
+4. On the initial installation page, create an initial user by providing an email address and password.
 
-You'll initially be prompted to create a first user. Do that and then...
+You now have a working Admin Dashboard installation.
 
-### Longer story
+## Configuring your first templates 
+After your first administrator login, you will need to create your first set of templates.
 
-This guide now continues on, explaining the system and progressively helping you add features as you go.
+1. Create a template for a Verifiable Credential that you would like to issue: 
 
-So first you'll want to try it out.
-
-1. First up, create a template for the Verifiable Credentials that you'd like to issue: 
-
-a) Open the credential templates screen and start a new template, like so:
+a) Navigate to the Credential Templates page and start a new template, like so:
 
 ![Alt text](screenshots/AddCredTemplate.png)
 
