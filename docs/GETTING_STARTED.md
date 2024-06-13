@@ -22,19 +22,19 @@ Alternatively, you can download this repository and use the following command:
 You now have a working Admin Dashboard installation.
 
 ## Configuring your first templates 
-After your first administrator login, you will need to create your first set of templates.
+After logging in, you will need to create your first set of templates.
 
 1. Create a template for a Verifiable Credential that you would like to issue: 
 
-a) Navigate to the Credential Templates page and start a new template, like so:
+a) Navigate to the Credential Templates menu item and click 'Create New Template':
 
 ![Alt text](screenshots/AddCredTemplate.png)
 
-b) Give your template a 'Title', optionally a 'Description', add any 'Internal Notes' you might like to keep for posterity, and add the template itself:
+b) Provide a 'Title' (required), 'Description' (optional), any 'Internal Notes' you might like to keep for posterity (optional), and the 'Credential Template Json':
 
 ![Alt text](screenshots/CredTemplateMetadataFields.png)
 
-Here is the json that you can paste into that 'Credential Template Json' field:
+Below is a sample Credential Template JSON:
 
 ```json
 {
